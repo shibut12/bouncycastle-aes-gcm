@@ -31,3 +31,10 @@ repositories {
     // You can declare any Maven/Ivy/file repository here.
     jcenter()
 }
+
+test {
+ testLogging {
+ // Show that tests are run in the command-line output
+ events 'started', 'passed'
+ }
+}
