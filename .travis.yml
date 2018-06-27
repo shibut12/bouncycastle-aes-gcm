@@ -2,5 +2,6 @@ language: java
 jdk:
   - oraclejdk8
 script:
-  - gradle clean
-  - gradle test 
+  - chmod +x ./gradlew build connectedCheck
+  - ./gradlew clean
+  - ./gradlew test 
