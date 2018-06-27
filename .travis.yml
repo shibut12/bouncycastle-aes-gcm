@@ -4,5 +4,5 @@ jdk:
   - oraclejdk9
   - openjdk8
 script:
-  - ./gradlew clean
-  - ./gradlew test 
+  - gradle clean
+  - gradle test 
